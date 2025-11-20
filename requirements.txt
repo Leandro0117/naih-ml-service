@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+transformers
+torch
+requests
+python-multipart   # si necesitas subir archivos
