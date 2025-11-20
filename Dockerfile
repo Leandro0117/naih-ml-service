@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:2.2.1-cuda11.8-cudnn8-runtime  # si quieres GPU; si no, usa python:3.11-slim
+FROM pytorch/pytorch:2.2.1-cuda11.8-cudnn8-runtime 
 
 WORKDIR /app
 COPY requirements.txt .
